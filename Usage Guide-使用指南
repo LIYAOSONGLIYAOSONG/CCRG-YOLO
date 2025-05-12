@@ -1,4 +1,30 @@
 1. Download the file locally
 2. Extract the file and upload it to the server
 3. You can choose to retrain or directly use the pre trained weights in the file. After modifying the weights, dataset, and YAML file address, you can directly run the train.py file
+Environment installation package instructions:：
+pip install ultralytics
+Install
+Clone repo and install requirements.txt in a Python>=3.8.0 environment, including PyTorch>=1.8.
+git clone https://github.com/ultralytics/yolov5  # clone
+cd yolov5
+pip install -r requirements.txt  # install
+Inference
+import torch
+# Model
+model = torch.hub.load("ultralytics/yolov5", "yolov5s")  # or yolov5n - yolov5x6, custom
+
+# Images
+img = "https://ultralytics.com/images/zidane.jpg"  # or file, Path, PIL, OpenCV, numpy, list
+
+# Inference
+results = model(img)
+
+# Results
+results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
+Training
+python train.py --data **.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 128
+                                                                 yolov5s                    64
+                                                                 yolov5m                    40
+                                                                 yolov5l                    24
+                                                                 yolov5x                    16
 

@@ -10,15 +10,17 @@ In summary, the main contributions of this study in steel surface defect detecti
 ![github2](https://github.com/user-attachments/assets/4cc4a80f-09a9-46ac-91ce-1f2a8d3fad0c)
 ![github3](https://github.com/user-attachments/assets/528f5bb3-f990-40ca-9753-61108292638e)
 
-Citation
+**
+[  
+Citation  
 @article{
-  title={Enhanced Steel Surface Defect Detection via Multiscale Small Object Detection with CCRG-YOLO Model},
-  author={yangjiasheng and liyaosong, yuanjianglong and xiachenbo, ningzihao and zhangzaihong},
-  journal={The Visual Computer},
-  year={2025},
-  publisher={Springer Berlin Heidelberg}
-}
-
-
+  title={Enhanced Steel Surface Defect Detection via Multiscale Small Object Detection with CCRG-YOLO Model},  
+  author={yangjiasheng and liyaosong, yuanjianglong and xiachenbo, ningzihao and zhangzaihong},  
+  journal={The Visual Computer},  
+  year={2025},  
+  publisher={Springer Berlin Heidelberg}  
+}  
+]  
+**  
 
 

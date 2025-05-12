@@ -1,1 +1,4 @@
+1. Download the file locally
+2. Extract the file and upload it to the server
+3. You can choose to retrain or directly use the pre trained weights in the file. After modifying the weights, dataset, and YAML file address, you can directly run the train.py file
 
